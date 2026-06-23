@@ -56,7 +56,7 @@
             font-family: 'Times New Roman';
         }
 
-        /* ALTERAÇÃO AQUI: Adicionado text-align: left para alinhar à esquerda */
+
         .font-mato-grosso {
             white-space: pre;
             font-family: 'Times New Roman';
@@ -92,7 +92,7 @@
             line-height: 1;
         }
 
-        /* Força a tag pre a usar Times New Roman e remove as margens padrões dela */
+
         pre {
             font-family: 'Times New Roman', serif;
             margin: 0;
@@ -128,7 +128,7 @@
             <tr>
                 <td><u>Amapá</u></td>
                 <td class="col-pop">877.613</td>
-                <td><code>&lt;u&gt;Texto sublinhado&lt;/u&gt;</code></td>
+                <td><u>Texto sublinhado</u></td>
             </tr>
             <tr>
                 <td><s><u>Amazonas</u></s></td>
@@ -148,25 +148,27 @@
             <tr>
                 <td><strong>Distrito Federal</strong></td>
                 <td class="col-pop">3.098.883</td>
-                <td>`Texto em negrito`</td>
+                <td><strong>'Texto em negrito'</strong></td>
             </tr>
             <tr>
-                <td>“Espírito Santo”</td>
+                <td><q>Espírito Santo</q></td>
                 <td class="col-pop">4.108.508</td>
-                <td>`“Citação curta”`</td>
+                <td><q>Citação curta</q></td>
             </tr>
             <tr>
-                <td><i>Goiás</i></td>
+                <td><cite>Goiás</cite></td>
                 <td class="col-pop">7.206.589</td>
-                <td>`<i>Citação de fonte</i>`</td>
+                <td><cite>'Citação de fonte'</cite></td>
             </tr>
             <tr>
-                <td>Maranhão</td>
+                <td><code>Maranhão</code></td>
                 <td class="col-pop">6.775.805</td>
-                <td>`Texto monoespaçado`</td>
+                <td><code>'Texto monoespaçado'</code></td>
             </tr>
             <tr style="height: 100px;">
-                <td class="font-mato-grosso"><pre>Mato Grosso</pre></td>
+                <td class="font-mato-grosso">
+                    <pre>Mato Grosso</pre>
+                </td>
                 <td class="col-pop">3.658.813</td>
                 <td>. <br>
                     <pre>Texto pré-formatado</pre> <br> .
@@ -175,29 +177,34 @@
             <tr>
                 <td><small>Paraíba</small></td>
                 <td class="col-pop">4.059.905</td>
-                <td>`Texto pequeno`</td>
+                <td><small>'Texto pequeno'</small></td>
             </tr>
             <tr>
                 <td>Piauí</td>
                 <td class="col-pop">3.281.480</td>
-                <td>Texto <sub>subscrito</sub></td>
+                <td>'Texto <sub>subscrito</sub>'</td>
             </tr>
             <tr>
-                <td class="rio-cell">Rio de Janeiro</td>
+                <td class="rio-cell">
+                    <blockquote>Rio de Janeiro</blockquote>
+                </td>
                 <td class="col-pop">16.054.524</td>
-                <td class="bloco-cell">. <br> Citação em bloco <br> .</td>
+                <td class="bloco-cell">. <br>
+                    <blockquote>Citação em bloco</blockquote> <br> .
+                </td>
             </tr>
             <tr>
                 <td><strong>Rio Grande do Sul</strong></td>
                 <td class="col-pop">10.882.965</td>
-                <td>`Negrito`</td>
+                <td> <strong>'Negrito'</strong></td>
             </tr>
             <tr>
                 <td><em>Rondônia</em></td>
                 <td class="col-pop">1.616.379</td>
-                <td>`Itálico`</td>
+                <td><em>'Itálico'</em></td>
             </tr>
             <tr>
+
                 <td><mark>Roraima</mark></td>
                 <td class="col-pop">636.707</td>
                 <td><mark>`Texto destacado`</mark></td>
