@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela População Brasileira 2024</title>
+
+
+
     <style>
         body {
             font-family: 'Times New Roman';
@@ -56,7 +59,7 @@
             font-family: 'Times New Roman';
         }
 
-
+        
         .font-mato-grosso {
             white-space: pre;
             font-family: 'Times New Roman';
@@ -92,7 +95,7 @@
             line-height: 1;
         }
 
-
+       
         pre {
             font-family: 'Times New Roman', serif;
             margin: 0;
@@ -103,7 +106,9 @@
 
 <body>
 
+
     <table>
+         <caption>Tabelas Grandes</caption>
         <thead>
             <tr>
                 <th colspan="3" class="header-top">População dos Estados Brasileiros - 2024</th>
@@ -166,9 +171,7 @@
                 <td><code>'Texto monoespaçado'</code></td>
             </tr>
             <tr style="height: 100px;">
-                <td class="font-mato-grosso">
-                    <pre>Mato Grosso</pre>
-                </td>
+                <td class="font-mato-grosso"><pre>Mato Grosso</pre></td>
                 <td class="col-pop">3.658.813</td>
                 <td>. <br>
                     <pre>Texto pré-formatado</pre> <br> .
@@ -185,13 +188,9 @@
                 <td>'Texto <sub>subscrito</sub>'</td>
             </tr>
             <tr>
-                <td class="rio-cell">
-                    <blockquote>Rio de Janeiro</blockquote>
-                </td>
+                <td class="rio-cell"><blockquote>Rio de Janeiro</blockquote></td>
                 <td class="col-pop">16.054.524</td>
-                <td class="bloco-cell">. <br>
-                    <blockquote>Citação em bloco</blockquote> <br> .
-                </td>
+                <td class="bloco-cell">. <br><blockquote>Citação em bloco</blockquote> <br> .</td>
             </tr>
             <tr>
                 <td><strong>Rio Grande do Sul</strong></td>
